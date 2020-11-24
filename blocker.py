@@ -1,6 +1,6 @@
 # To import time module
 import time
-# To import datetime class form datetime module
+# To import datetime class from datetime module
 from datetime import datetime as dt
 
 hosts_temp="hosts"
