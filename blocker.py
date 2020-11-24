@@ -1,10 +1,7 @@
 # To import time module
 import time
-<<<<<<< HEAD
-# To import datetime class form datetime module
-=======
+
 # To import datetime class from datetime module
->>>>>>> 058acaab08f819a42751edf63d4d5df0d3601db1
 from datetime import datetime as dt
 
 hosts_temp="hosts"
@@ -12,7 +9,7 @@ hosts_path="/etc/hosts"
 # IP where browse visit will redirect to
 redirect="127.0.0.1"
 # Domains user wants to block
-website_list=["www.facebook.com","facebook.com","www.twitter,com"]
+website_list=["www.facebook.com","facebook.com","www.twitter,com", "www.instagram.com"]
 
 while True:
     if dt(dt.now().year, dt.now().month,dt.now().day,8) < dt.now() < dt(dt.now().year, dt.now().month,dt.now().day,16):
@@ -41,4 +38,4 @@ while True:
         # Prints after 4pm and before 8am
         print("Fun hours....")
     # Prints every 5 seconds
-    time.sleep(5)          
+    time.sleep(5)
